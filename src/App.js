@@ -56,7 +56,7 @@ function App() {
     return `${day} ${date} ${month} ${year}`;
   };
   return (
-    <div className="App warm">
+    <div className={weather.main.temp<20?'App cold':'App warm'}>
       <main className="d-flex align-items-center flex-column">
         <Form className="m-3 w-75" onSubmit={(evt) => evt.preventDefault()}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
