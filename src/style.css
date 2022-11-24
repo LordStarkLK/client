@@ -1,0 +1,18 @@
+.App.warm{
+    background-image: url('./../public/images/2.jpg');
+    background-size: cover;
+}
+.App.cold{
+    background-image: url('./../public/images/1.jpg');
+    background-size: cover;
+}
+
+main{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+    color: white;
+    text-align: center;
+}
+.locationDate{
+    text-align: center;
+}
